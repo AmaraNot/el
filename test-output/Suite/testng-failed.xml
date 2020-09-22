@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="IE_Test(failed)">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="com.qa.Testcases.testingCRM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="CRMPage"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.testingCRM -->
+    </classes>
+  </test> <!-- IE_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
